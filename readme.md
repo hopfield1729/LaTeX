@@ -9,3 +9,5 @@ Books studied/to be studied:
 - Simplicial and Dendroidal Homotopy Theory, Heuts-Moerdijk
 - Commutative Ring Theory, Matsumura,
 - Introduction to Algebraic K-Theory, Milnor
+
+--
