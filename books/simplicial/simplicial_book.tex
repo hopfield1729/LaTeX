@@ -1,0 +1,271 @@
+\part{Simplicial and Dendroidal Homotopy Theory}
+
+\section{Operads}
+\subsection{Operads}
+\begin{definition}
+    \textbf{Operad: }An operad $P$ consists of a set of colours $C$ and for each $n \geq0$ and sequence $c_1,...,c_n, c$ of colours in $C$, a set $P(c_1,...,c_n;c)$ of operations, thought of as taking $n$ inputs of colours $c_1,...,c_n$ and with output of colour $c$. Moreover there are the structure maps
+
+    \begin{itemize}
+        \item $\forall c\in C, \exists 1_c \in P(c;c)$,
+        \item For $\sigma \in \Sigma_n$ a map \[\sigma^*: P(c_1,...,c_n;c) \to P(c_{\sigma(1)},...,c_{\sigma(n)};c)\] denoted $\sigma^*\circ p = p \circ \sigma$
+        \item For any sequence $c_1,...,c_n$ and $n$-tuple of sequences $d^i_1,...,d^i_{k_i}$, a composition
+        \item \[\gamma: P(c_1,...,c_n;c)\times \prod_{i = 1}^n P(d^i_1,...,d^i_{k_i};c_i)\to P(d^1_1,...,d^n_{k_n}; c)\] which is written as $\gamma(p,q_1,...,1_n)\to p \circ(q_1,...,q_n)$
+    \end{itemize}
+
+    and there are further requirements on the structure maps:
+    \begin{itemize}
+        \item $\forall p \in P(c_1,...,c_n; c), \gamma(1_c, p) = p$,
+        \item $\forall p \in P(c_1,...,c_n;c), \gamma(p, 1_{c_1},...,1_{c_n}) = p$
+    \end{itemize}
+\end{definition}
+
+There are some classical notation we must be weary of and state here. Let $P$ be an operad with a singleton colour set, i.e. $C = \{*\}$. Then we can write $P(c_1,...,c_n;c) = P(c,...,c;c) =: P(n)$. There is an obvious formulation for the compostion in this case:
+\[P(n)\times \prod_{i = 1}^n P(k_i) \to P(k_1 + ... + k_n)\]
+In this case we say $P$ is uncoloured. If $C \notin \{\phi, \{*\}\}$ then we say $P$ is a coloured operad. We can then clearly see that
+
+\[
+\begin{tikzcd}
+    \text{Monoids} \arrow[r, hook] \arrow[d, hook]
+    & \text{Categories} \arrow[d, hook]\\
+    \text{Uncoloured Operads} \arrow[r, hook] & \text{Operads}
+\end{tikzcd}
+\]
+
+The definition of an operad allows for $n = 0$ in $P(c_1,...,c_n;c)$, which we define as $P(-;c)$. The elements of $P(-;c)$ are called the constants of colour $c$, and an operad with $P(-;c) = \{*_c\}$ is called unital. An operad $P$ is open if there are no constants for any colour, i.e. its interior $P^o$ (the set of constants) is empty. 
+
+The most fundamental examples of operads are $\mathbf{Com}$ and $\mathbf{Ass}$:
+\begin{itemize}
+    \item $\mathbf{Com}$ is the commutative operad with $\mathbf{Com}(n) = \{*\}$,
+    \item $\mathbf{Ass}$ is the associative operad with $\mathbf{Ass}(n) = \Sigma_n$
+    \item $\mathbf{Tree}^{pl}$ is the planar tree operad. The $n$-ary operations here are the set of planar rooted trees with $n$ numbered leaves. 
+\end{itemize}
+
+\[\mathbf{Tree}^{pl}(6) \ni \hat{T} = 
+\begin{tikzcd}[column sep=0.8em, row sep=0.4em]
+& 5\arrow[dr, dash] & & 3\arrow[dl, dash] &  &  &  \\
+6 \arrow[dr, dash] &   & \arrow[dl, dash] &  & 2 \arrow[dr, dash] & 1 \arrow[d, dash] & 3 \arrow[dl, dash] \\
+& \arrow[drr, dash]  &   & &  & \arrow[dll, dash] &  \\
+&   &  & \arrow[d, dash] &  &  &  \\
+&   &  & {} &  &  &  \\
+\end{tikzcd}
+\]
+
+\[\mathbf{Tree}^{pl}(2) \ni T = 
+\begin{tikzcd}[column sep=0.8em, row sep=0.4em]
+2\arrow[dr, dash] & & 1\arrow[dl, dash] \\
+& \arrow[d, dash] & \\
+& {} &
+\end{tikzcd}, \mathbf{Tree}^{pl}(3) \ni T_1 = 
+\begin{tikzcd}[column sep=0.8em, row sep=0.4em]
+& 1\arrow[dr, dash] & & 2\arrow[dl, dash] \\
+3\arrow[dr, dash] & & \arrow[dl, dash] & \\
+& \arrow[d, dash] & \\
+& {} &
+\end{tikzcd}, \mathbf{Tree}^{pl}(4) \ni T_2 = 
+\begin{tikzcd}[column sep=0.8em, row sep=0.4em]
+1\arrow[drr, dash] & 2\arrow[dr, dash] & & 3\arrow[dl, dash] & 4\arrow[dll, dash] \\
+&&\arrow[d, dash]&& \\
+&&{}&&
+\end{tikzcd}
+\]
+
+\[\mathbf{Tree}^{pl}(7) \ni \tilde{T} = 
+\begin{tikzcd}[column sep=0.8em, row sep=0.4em]
+T_2\arrow[dr, dash] & & T_1\arrow[dl, dash] \\
+& \arrow[d, dash] & \\
+& {} &
+\end{tikzcd}
+\]
+
+Then in fact $\gamma(T, T_1, T_2) = \tilde{T}$. The operation of composition on the operad $\mathbf{Tree}^{pl}$ is computed as $\gamma(T\in\mathbf{Tree}^{pl}(n), T_1 \in \mathbf{Tree}^{pl}(k_1), ..., T_n\in\mathbf{Tree}^{pl}(k_n)) = \hat{T}$ where $\hat{T}\in \mathbf{Tree}^{pl}(k_1 + ... + k_n)$ is the original $T$ but with the subtree $T_i$ grafted onto the leaf $i$ for all choices of $i$.
+
+\begin{definition}
+    \textbf{Topological Operad: }A topological operad is an operad $P$ where each set of operations $P(c_1,...,c_n;c)$ is equipped with some topology and all the structure maps are continuous with respect to this topology.
+\end{definition}
+
+The most basic form of a topological operad is the little $d$-cubs operad $\mathbf{E}_d$. The space $\mathbf{E}_d(n)$ is the space of $n$ numbered $d$-dimensional cubes inside the $d$-dimensional unit cube $[0,1]^d$. The operadic composition between $p \in \mathbf{E}_d(n)$ with operations $q_1,...,q_n$ is given by substituting the rescaled $q_i$ into the $i$th cube of $p$. Note that this is really just a topological analogue to the planar tree operad $\mathbf{Tree}^{pl}$, where instead of grafting trees onto leaves we are scaling and embedding cubes in some smooth way. 
+
+More specifically, a point in $\mathbf{E}_d(n)$ is an $n$-tuple of embeddings $f_1,...,f_n: [0,1]^d\to [0,1]^d$ satisfying:
+\begin{itemize}
+    \item Each $f_i$ is the composition of $d$ affine embeddings,
+    \item The interiors of the cubes embedded by $f_i$ are mutually disjoint
+\end{itemize}
+
+We can now observe that operads form a category in a very natural fashion. Given two operads $P,Q$, a morphism $\varphi: P\to Q$ is a function $f: C_p\to C_Q$ on operadic colours and for each sequence $c_1,...,c_n;c$ of $C_P$, we have 
+\[\varphi_{(c_1,...,c_n;c)}:P(c_1,...,c_n;c) \to Q(f(c_1),...,f(c_n);f(c))\]
+that is compatible in the natural way with $\Sigma_n$ actions
+
+\subsection{Algebras for Operads}
+\begin{definition}
+    \textbf{Operadic Algebras: }Let $P$ be an operad. A $P$-algebra A is a family of sets $\{A_c\}_{c\in C_P}$ together with maps
+    \[P(c_1,...,c_n; c)\times A_{c_1}\times...\times A_{c_n}\to A_c\]
+    written $(p, a_1,..., a_n)\to A(p)(a_1,...,a_n)$. These maps also satisfy:
+    \begin{itemize}
+        \item $1_c(a) = a \quad \forall a \in A_c$
+        \item $\sigma \in \Sigma_n, a_i\in A_{c_i}, \sigma^*p(a_{\sigma(1)},...,a_{\sigma(n)}) = p(a_1,...,a_n)$
+    \end{itemize} 
+\end{definition}
+
+\begin{definition}
+    \textbf{Morphisms of Operadic Algebras: }Let $A,B$ be two $P$-algebras. A morphism $f:A\to B$ is a family of maps
+    \[f_c:A_c\to B_c\]
+    which are compatible:
+    \[f_c(A(p)(a_1,...,a_n)) = B(p)(f_{c_1}(a_1),...,f_{c_n}(a_n))\]
+\end{definition}
+
+\begin{definition}
+    \textbf{Category of $P$-Algebras: }Let $P$ be an operad. Then we have a category of $P$-algebras $\text{Alg}_P$ with:
+    \begin{itemize}
+        \item $\text{Ob}\text{Alg}_P = \{P- \text{algebras } A\}$
+        \item $\Hom_{\text{Alg}_P}(A,B) = \{f:A\to B: f \text{ is a morphism of algebras}\}$
+    \end{itemize}
+\end{definition}
+
+We can now see some examples of operadic algebras. A $\mathbf{Com}$ algebra is a set $A$ together with a map $\mu_n: A^{\times n}\to A$ for each $n\geq 0$. We can then verify that the category of algebras over the commutative operad, $\text{Alg}_{\mathbf{Com}}$ is the category of commutative monoids. In a similar way $\text{Alg}_{\mathbf{Ass}}$ is the category of associative monoids. 
+
+Consider the little-$d$ cubes operad $\mathbf{E}_d$. Let $X$ be a topological space with basepoint $x_0$. Then the loop space of $X$ is $\Omega X$, the space of basepoint preserving maps $S^1\to X$, or in otherwords $\{\omega :[0,1]\to X, \omega(\partial [0,1]) = x_0\}$. One can then inductively construct the $d$-fold loop space $\Omega^d X = \Omega(\Omega^{d-1} X)$. $\Omega^d X$ is very naturally a $\mathbf{E}_d$ algebra. 
+\subsection{Trees}
+
+\subsection{Alternative Definitions for Operads}
+
+\subsection{Free Operads}
+
+\subsection{The Tensor Product of Operads}
+
+\subsection{The Boardman-Vogt Resolution of an Operad}
+
+\subsection{Configuration Spaces and the Fulton-MacPherson Operad}
+
+\subsection{Configuration Spaces and the Operad of Little Cubes}
+
+\section{Simplicial Sets}
+\subsection{The Simplex Category $\Delta$}
+\begin{definition}
+    \textbf{The Simplex Category $\Delta$: }$\Delta$ is the category with:
+    \begin{itemize}
+        \item $\text{Ob}\Delta = \N$,
+        \item $\Hom_{\Delta}([n], [m]) = \{\text{order preserving maps } [n]\to [m]\}$
+    \end{itemize}
+\end{definition}
+
+There are special maps in $\Delta$ - the elementary faces $\delta^i: [m - 1]\to [m]$ and elementary degeneracies $\sigma^i: [m] \to [m-1]$ $0 \leq i \leq m - 1$:
+\[\delta^i(j) = 
+\begin{cases}
+    j & j < i \\
+    j + 1 & j \geq i
+\end{cases}, \quad \sigma^i(j) = 
+\begin{cases}
+    j & j \leq i \\
+    j - 1 & j > i
+\end{cases}
+\]
+These have some nice relations, called the cosimplicial identities:
+\begin{itemize}
+    \item $\sigma_i\sigma_j = \sigma_{j-1}\sigma_i, \quad i < j$
+    \item $\delta_j \delta_i =\delta_i\delta_{j-1}$
+\end{itemize}
+
+\subsubsection{Limits and Colimits of The Simplicial Category}
+\[\begin{tikzcd}[column sep=1em, row sep=1em]
+    k \arrow[r, "f"] \arrow[d, "g"] & n \arrow[d] \\
+    m \arrow[r] & m + n
+\end{tikzcd}\]
+is a pushout, where $f(i) = i, g(i) = m - k + i$
+
+\subsection{Simplicial Sets and the Geometric Realisation}
+Let $\mathcal{C}$ be a category. A simplicial object in $\mathcal{C}$ is a functor $X: \Delta^{op}\to \mathcal{C}$. The morphisms between two simplicial objects over $\mathcal{C}$ are the natural transformations of functors. 
+
+From this we obtain a category of simpicial objects on $\mathcal{C}$, which has two notations:
+\[\mathcal{C}^{\Delta^{op}}, \quad s\mathcal{C}\]
+where we use the left notation when we want to be reminded that elements are functors (and thus we treat the category in the standard way one treats a functor category) and the right when we want to be reminded of the underlying structure. 
+
+When $\mathcal{C} = Set$ then there is really nice structure here. First off, in this case we say $X\in sSet$ is a simplicial \textit{set}. We get back to this case soon but we expand on the definition of a simplicial object further. 
+
+A simplicial object $X$ in $\mathcal{C}$ is given by a sequence of objects $X_n = X([n])$ in $\mathcal{C}$ together with maps $\alpha^*: X_n \to X_m$ where $\alpha \in \Hom_\Delta(m, n)$. These maps should be functorial, i.e. 
+\[id^* = id : X_n \to X_n\]
+\[(\alpha \circ \beta)^* = \beta^* \alpha^*\quad \alpha: [m]\to [n], \beta: [k]\to [m]\]
+and a morphism between two simplicial objects is a morphism on objects $f_n: X_n \to Y_n$ such that it is functorially compatible $f_m \alpha^* = \alpha f_n$. 
+
+Back to the case of simplicial sets. In this case we refer to $X_n$ as the set of $n$-simplices of $X$. We have some special maps
+\[d_i = (\delta_i)^*: X_n\to X_{n-1}\]
+\[s_i = \sigma_i^*: X_{n-1}\to X_n\]
+called the face maps and face degeneracies of the simplicial object $X$. 
+
+For now let's consider the common topological $n$-simplex:
+\[\Delta^n = \{(t_0,...,t_n)\in \R^{n+1}: \sum_it_i = 1, t_i \geq 0\}\]
+These can be thought of as generalisations of triangles in higher dimensions. $\Delta^1$ is just the line $y = -x + 1$, $\Delta^2$ is the set $\{(x,y,1 - (x + y): 0\leq x,y, x + y \leq 1)\}$ and so on. A function $f: \{0,...,m\}\to \{0,...,n\}$ defines an affine map $f_*: \Delta^m \to \Delta^n, v_i \to v_{f(i)}$ where $v_i$ is the $i$th vertex of the simplex $\Delta^m$. 
+
+This construction makes the family of standard simplicies into a functor $\Delta^\bullet: \Delta \to \textbf{Top}$.
+\[\Delta^\alpha(t_0,...,t_m) = (s_0,...,s_n), s_j = \sum_{i \in \alpha^{-1}(j)}t_i\]
+for $\alpha\in \Hom_{\Delta}([m], [n])$. Specifically the elementary face map $\delta_i: [n-1]\to[n]$ is lifted to
+\[\Delta^{\delta_i}: \Delta^{n-1}\to \Delta^n\]
+and embeds $\Delta^{n-1}$ as the face opposite the vertex $i$ 
+
+Let's see this in low dimension. Let $n = 1$ and $i= 0$. We must keep track of what's going on. We have just claimed that $\Delta^{\delta_0}$ embeds $\Delta^0$ as the face opposite the vertex $v_0$ in $\Delta^1$.
+
+Recall that $\Delta^0 = \{1 \in \R^1\}$ is a point and $\Delta^1$ corresponds to the line $y = 1 - x$. Let's call the point $(0,1) = v_0$ the first vertex. We have $\Delta^{\delta_0} (t) = (\sum_{i \in \delta_0^{-1}(0)}t_i,\sum_{i \in \delta_0^{-1}(1)}t_i)$ but $\delta_0^{-1}(1) = \{j \in [1] = \{0,1\}: j + 1 = 1 \text{ and } j \geq 0\} = 0$. Thus we get that $\Delta^{\delta_0} (1) = (1,0)$. So now we have gained the intuition for the following proposition
+
+\begin{proposition}
+    For maps $\delta_i: [n-1]\to[n]$, the map $(\delta_i)_* = \Delta^{\delta_i}: \Delta^{n-1}\to\Delta^n$ embeds $\Delta^{n-1}$ as the face opposite the vertex labelled $i$
+\end{proposition}
+\textit{Proof}
+
+There is also a nice geometric interpretation for $\Delta^{\sigma_j}$ for $\sigma_j : [n] \to [n-1]$. This is the collapsing of $\Delta^n$ onto $\Delta^{n-1}$ by a projection parallel to the line connecting $v_j$ and $v_{j+1}$. 
+
+We start with a large and rather unintuitive space and try to quotient out by these relations in order to get a nice geometric space. Let $\hat{X} = \bigsqcup_{n\geq 0}(X_n \times \Delta^n)$. Let $(x,t)\in \hat{X}$, that is $x\in X_n, t\in \Delta^n$. We have the relation $(x, \Delta^\alpha t) \sim (\alpha^* x, t)$.
+
+\begin{definition}
+    \textbf{The Geometric Realisation of a Simplicial Set: }Let $X:\Delta^{op}\to Set$ be a simplicial set. The geometric realisation of $X$ is
+    \[|X|:= (\bigsqcup_{n\geq 0}(X_n \times \Delta^n))/\sim\]
+    where we denote $x\otimes t$ the equivalence class of $(x,t)$ in $|X|$. 
+\end{definition}
+A map $f: X\to Y$ between simplicial sets induces a continuous map
+\[|f|: |X| \to |Y|, x\otimes t \to f(x) \otimes t\]
+Whence it is clear we have a functor $|.|: \textbf{sSet}\to \textbf{Top}$
+
+If $C^\bullet: \Delta\to \mathcal{C}$ is a functor, each object $c\in \mathcal{C}$ defines a simplicial set $\Sing_{C^\bullet}(c) = \Hom_\mathcal{C}(C^n, c)$
+
+\subsection{The Geometric Realisation as a Cell Complex}
+
+\subsection{Simplicial Sets as a Category of Presheaves}
+
+\section{Dendroidal Sets}
+
+\section{Tensor Products of Dendroidal Sets}
+
+\section{Kan Conditions for Simplicial Sets}
+
+\section{Kan Conditions for Dendroidal Sets}
+
+\section{Model Categories}
+
+\section{Model Structures on the Category of Simplicial Sets}
+
+\section{Three Model Structures on the Category of Dendroidal Sets}
+
+\section{Reedy Categories and Diagrams of Spaces}
+
+\section{Mapping Spaces and Bousfield Localisations}
+
+\section{Dendroidal Spaces and $\infty$-Operads}
+
+\section{Left Fibrations and the Covariant Model Structure}
+
+\section{Simplical Operads and $\infty$-Operads}
+
+\section{Some Research}
+
+\subsection{Danoidal Sets}
+Over groups
+
+\subsection{Kanoidal Sets}
+Over rings 
+
+\subsection{Hokoidal Sets}
+Over vector spaces
+
+\subsection{Kukanal Set}
+Over topological spaces
+
+\subsection{General Sentoidal Sets}
+Over the category of cones over a category

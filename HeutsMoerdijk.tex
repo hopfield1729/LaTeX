@@ -1,0 +1,197 @@
+\part{Simplicial and Dendroidal Homotopy Theory}
+
+\section{Operads}
+\subsection{Operads}
+\begin{definition}
+    \textbf{Operad: }An operad $P$ consists of a set of colours $C$ and for each $n \geq0$ and sequence $c_1,...,c_n, c$ of colours in $C$, a set $P(c_1,...,c_n;c)$ of operations, thought of as taking $n$ inputs of colours $c_1,...,c_n$ and with output of colour $c$. Moreover there are the structure maps
+
+    \begin{itemize}
+        \item $\forall c\in C, \exists 1_c \in P(c;c)$,
+        \item For $\sigma \in \Sigma_n$ a map \[\sigma^*: P(c_1,...,c_n;c) \to P(c_{\sigma(1)},...,c_{\sigma(n)};c)\] denoted $\sigma^*\circ p = p \circ \sigma$
+        \item For any sequence $c_1,...,c_n$ and $n$-tuple of sequences $d^i_1,...,d^i_{k_i}$, a composition
+        \item \[\gamma: P(c_1,...,c_n;c)\times \prod_{i = 1}^n P(d^i_1,...,d^i_{k_i};c_i)\to P(d^1_1,...,d^n_{k_n}; c)\] which is written as $\gamma(p,q_1,...,1_n)\to p \circ(q_1,...,q_n)$
+    \end{itemize}
+
+    and there are further requirements on the structure maps:
+    \begin{itemize}
+        \item $\forall p \in P(c_1,...,c_n; c), \gamma(1_c, p) = p$,
+        \item $\forall p \in P(c_1,...,c_n;c), \gamma(p, 1_{c_1},...,1_{c_n}) = p$
+    \end{itemize}
+\end{definition}
+
+There are some classical notation we must be weary of and state here. Let $P$ be an operad with a singleton colour set, i.e. $C = \{*\}$. Then we can write $P(c_1,...,c_n;c) = P(c,...,c;c) =: P(n)$. There is an obvious formulation for the compostion in this case:
+\[P(n)\times \prod_{i = 1}^n P(k_i) \to P(k_1 + ... + k_n)\]
+In this case we say $P$ is uncoloured. If $C \notin \{\phi, \{*\}\}$ then we say $P$ is a coloured operad. We can then clearly see that
+
+\[
+\begin{tikzcd}
+    \text{Monoids} \arrow[r, hook] \arrow[d, hook]
+    & \text{Categories} \arrow[d, hook]\\
+    \text{Uncoloured Operads} \arrow[r, hook] & \text{Operads}
+\end{tikzcd}
+\]
+
+The definition of an operad allows for $n = 0$ in $P(c_1,...,c_n;c)$, which we define as $P(-;c)$. The elements of $P(-;c)$ are called the constants of colour $c$, and an operad with $P(-;c) = \{*_c\}$ is called unital. An operad $P$ is open if there are no constants for any colour, i.e. its interior $P^o$ (the set of constants) is empty. 
+
+The most fundamental examples of operads are $\mathbf{Com}$ and $\mathbf{Ass}$:
+\begin{itemize}
+    \item $\mathbf{Com}$ is the commutative operad with $\mathbf{Com}(n) = \{*\}$,
+    \item $\mathbf{Ass}$ is the associative operad with $\mathbf{Ass}(n) = \Sigma_n$
+    \item $\mathbf{Tree}^{pl}$ is the planar tree operad. The $n$-ary operations here are the set of planar rooted trees with $n$ numbered leaves. 
+\end{itemize}
+
+\[\mathbf{Tree}^{pl}(6) \ni \hat{T} = 
+\begin{tikzcd}[column sep=0.8em, row sep=0.4em]
+& 5\arrow[dr, dash] & & 3\arrow[dl, dash] &  &  &  \\
+6 \arrow[dr, dash] &   & \arrow[dl, dash] &  & 2 \arrow[dr, dash] & 1 \arrow[d, dash] & 3 \arrow[dl, dash] \\
+& \arrow[drr, dash]  &   & &  & \arrow[dll, dash] &  \\
+&   &  & \arrow[d, dash] &  &  &  \\
+&   &  & {} &  &  &  \\
+\end{tikzcd}
+\]
+
+\[\mathbf{Tree}^{pl}(2) \ni T = 
+\begin{tikzcd}[column sep=0.8em, row sep=0.4em]
+2\arrow[dr, dash] & & 1\arrow[dl, dash] \\
+& \arrow[d, dash] & \\
+& {} &
+\end{tikzcd}, \mathbf{Tree}^{pl}(3) \ni T_1 = 
+\begin{tikzcd}[column sep=0.8em, row sep=0.4em]
+& 1\arrow[dr, dash] & & 2\arrow[dl, dash] \\
+3\arrow[dr, dash] & & \arrow[dl, dash] & \\
+& \arrow[d, dash] & \\
+& {} &
+\end{tikzcd}, \mathbf{Tree}^{pl}(4) \ni T_2 = 
+\begin{tikzcd}[column sep=0.8em, row sep=0.4em]
+1\arrow[drr, dash] & 2\arrow[dr, dash] & & 3\arrow[dl, dash] & 4\arrow[dll, dash] \\
+&&\arrow[d, dash]&& \\
+&&{}&&
+\end{tikzcd}
+\]
+
+\[\mathbf{Tree}^{pl}(7) \ni \tilde{T} = 
+\begin{tikzcd}[column sep=0.8em, row sep=0.4em]
+T_2\arrow[dr, dash] & & T_1\arrow[dl, dash] \\
+& \arrow[d, dash] & \\
+& {} &
+\end{tikzcd}
+\]
+
+Then in fact $\gamma(T, T_1, T_2) = \tilde{T}$. The operation of composition on the operad $\mathbf{Tree}^{pl}$ is computed as $\gamma(T\in\mathbf{Tree}^{pl}(n), T_1 \in \mathbf{Tree}^{pl}(k_1), ..., T_n\in\mathbf{Tree}^{pl}(k_n)) = \hat{T}$ where $\hat{T}\in \mathbf{Tree}^{pl}(k_1 + ... + k_n)$ is the original $T$ but with the subtree $T_i$ grafted onto the leaf $i$ for all choices of $i$.
+
+\begin{definition}
+    \textbf{Topological Operad: }A topological operad is an operad $P$ where each set of operations $P(c_1,...,c_n;c)$ is equipped with some topology and all the structure maps are continuous with respect to this topology.
+\end{definition}
+
+The most basic form of a topological operad is the little $d$-cubs operad $\mathbf{E}_d$. The space $\mathbf{E}_d(n)$ is the space of $n$ numbered $d$-dimensional cubes inside the $d$-dimensional unit cube $[0,1]^d$. The operadic composition between $p \in \mathbf{E}_d(n)$ with operations $q_1,...,q_n$ is given by substituting the rescaled $q_i$ into the $i$th cube of $p$. Note that this is really just a topological analogue to the planar tree operad $\mathbf{Tree}^{pl}$, where instead of grafting trees onto leaves we are scaling and embedding cubes in some smooth way. 
+
+More specifically, a point in $\mathbf{E}_d(n)$ is an $n$-tuple of embeddings $f_1,...,f_n: [0,1]^d\to [0,1]^d$ satisfying:
+\begin{itemize}
+    \item Each $f_i$ is the composition of $d$ affine embeddings,
+    \item The interiors of the cubes embedded by $f_i$ are mutually disjoint
+\end{itemize}
+
+We can now observe that operads form a category in a very natural fashion. Given two operads $P,Q$, a morphism $\varphi: P\to Q$ is a function $f: C_p\to C_Q$ on operadic colours and for each sequence $c_1,...,c_n;c$ of $C_P$, we have 
+\[\varphi_{(c_1,...,c_n;c)}:P(c_1,...,c_n;c) \to Q(f(c_1),...,f(c_n);f(c))\]
+that is compatible in the natural way with $\Sigma_n$ actions
+
+\subsection{Algebras for Operads}
+\begin{definition}
+    \textbf{Operadic Algebras: }Let $P$ be an operad. A $P$-algebra A is a family of sets $\{A_c\}_{c\in C_P}$ together with maps
+    \[P(c_1,...,c_n; c)\times A_{c_1}\times...\times A_{c_n}\to A_c\]
+    written $(p, a_1,..., a_n)\to A(p)(a_1,...,a_n)$. These maps also satisfy:
+    \begin{itemize}
+        \item $1_c(a) = a \quad \forall a \in A_c$
+        \item $\sigma \in \Sigma_n, a_i\in A_{c_i}, \sigma^*p(a_{\sigma(1)},...,a_{\sigma(n)}) = p(a_1,...,a_n)$
+    \end{itemize} 
+\end{definition}
+
+\begin{definition}
+    \textbf{Morphisms of Operadic Algebras: }Let $A,B$ be two $P$-algebras. A morphism $f:A\to B$ is a family of maps
+    \[f_c:A_c\to B_c\]
+    which are compatible:
+    \[f_c(A(p)(a_1,...,a_n)) = B(p)(f_{c_1}(a_1),...,f_{c_n}(a_n))\]
+\end{definition}
+
+\begin{definition}
+    \textbf{Category of $P$-Algebras: }Let $P$ be an operad. Then we have a category of $P$-algebras $\text{Alg}_P$ with:
+    \begin{itemize}
+        \item $\text{Ob}\text{Alg}_P = \{P- \text{algebras } A\}$
+        \item $\text{Hom}_{\text{Alg}_P}(A,B) = \{f:A\to B: f \text{ is a morphism of algebras}\}$
+    \end{itemize}
+\end{definition}
+
+We can now see some examples of operadic algebras. A $\mathbf{Com}$ algebra is a set $A$ together with a map $\mu_n: A^{\times n}\to A$ for each $n\geq 0$. We can then verify that the category of algebras over the commutative operad, $\text{Alg}_{\mathbf{Com}}$ is the category of commutative monoids. In a similar way $\text{Alg}_{\mathbf{Ass}}$ is the category of associative monoids. 
+
+Consider the little-$d$ cubes operad $\mathbf{E}_d$. Let $X$ be a topological space with basepoint $x_0$. Then the loop space of $X$ is $\Omega X$, the space of basepoint preserving maps $S^1\to X$, or in otherwords $\{\omega :[0,1]\to X, \omega(\partial [0,1]) = x_0\}$. One can then inductively construct the $d$-fold loop space $\Omega^d X = \Omega(\Omega^{d-1} X)$. $\Omega^d X$ is very naturally a $\mathbf{E}_d$ algebra. 
+\subsection{Trees}
+
+\subsection{Alternative Definitions for Operads}
+
+\subsection{Free Operads}
+
+\subsection{The Tensor Product of Operads}
+
+\subsection{The Boardman-Vogt Resolution of an Operad}
+
+\subsection{Configuration Spaces and the Fulton-MacPherson Operad}
+
+\subsection{Configuration Spaces and the Operad of Little Cubes}
+
+\section{Simplicial Sets}
+\subsection{The Simplex Category $\Delta$}
+\begin{definition}
+    \textbf{The Simplex Category $\Delta$: }$\Delta$ is the category with:
+    \begin{itemize}
+        \item $\text{Ob}\Delta = \N$,
+        \item $\text{Hom}_{\Delta}([n], [m]) = \{\text{order preserving maps } [n]\to [m]\}$
+    \end{itemize}
+\end{definition}
+
+There are special maps in $\Delta$ - the elementary faces $\delta^i: [m - 1]\to [m]$ and elementary degeneracies $\sigma^i: [m] \to [m-1]$ $0 \leq i \leq m - 1$:
+\[\delta^i(j) = 
+\begin{cases}
+    j & j < i \\
+    j + 1 & j \geq i
+\end{cases}, \quad \sigma^i(j) = 
+\begin{cases}
+    j & j \leq i \\
+    j - 1 & j > i
+\end{cases}
+\]
+These have some nice relations, called the cosimplicial identities:
+\begin{itemize}
+    \item $\sigma_i\sigma_j = \sigma_{j-1}\sigma_i, \quad i < j$
+    \item $\delta_j \delta_i =\delta_i\delta_{j-1}$
+\end{itemize}
+
+\subsubsection{Limits and Colimits of The Simplicial Category}
+\[\begin{tikzcd}[column sep=1em, row sep=1em]
+    k \arrow[r, "f"] \arrow[d, "g"] & n \arrow[d] \\
+    m \arrow[r] & m + n
+\end{tikzcd}\]
+is a pushout, where $f(i) = i, g(i) = m - k + i$
+
+\section{Dendroidal Sets}
+
+\section{Tensor Products of Dendroidal Sets}
+
+\section{Kan Conditions for Simplicial Sets}
+
+\section{Kan Conditions for Dendroidal Sets}
+
+\section{Model Categories}
+
+\section{Model Structures on the Category of Simplicial Sets}
+
+\section{Three Model Structures on the Category of Dendroidal Sets}
+
+\section{Reedy Categories and Diagrams of Spaces}
+
+\section{Mapping Spaces and Bousfield Localisations}
+
+\section{Dendroidal Spaces and $\infty$-Operads}
+
+\section{Left Fibrations and the Covariant Model Structure}
+
+\section{Simplical Operads and $\infty$-Operads}

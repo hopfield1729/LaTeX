@@ -1,0 +1,54 @@
+\contentsline {part}{I\hspace {1em}Éléments de Géométrie Algébrique I: The Language of Schemes}{3}{part.1}%
+\contentsline {section}{\numberline {1}Affine Schemes}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}The Prime Spectrum of a Ring}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Functorial Properties of Prime Spectra of Rings}{4}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Application of Functorial Properties}{5}{subsubsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.3}Sheaf Associated to a Module}{7}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Quasi-Coherent Sheaves over a Prime Spectrum}{7}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Coherent Sheaves over a Prime Spectrum}{7}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Functorial Properties of Quasi-Coherent Sheaves over a Prime Spectrum}{7}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Characterisation of Morphisms of Affine Schemes}{7}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Morphisms from Locally Ringed Spaces to Affine Schemes}{7}{subsection.1.8}%
+\contentsline {section}{\numberline {2}Preschemes and Morphisms of Preschemes}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Definition of Preschemes}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Morphism of Preschemes}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Gluing Preschemes}{7}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Preschemes over a Prescheme}{7}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Products of Preschemes}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Sums of Preschemes}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Products of Preschemes}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Formal Properties of the Product, Change of the Base Prescheme}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Points of a Prescheme with Values in a Prescheme, Geometric Points}{7}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Surjections and Injections}{7}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Fibres}{7}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}Applications: Reduction of a Prescheme Modulo $\mathcal {J}$}{7}{subsection.3.7}%
+\contentsline {section}{\numberline {4}Subpreschemes and Immersion Morphisms}{7}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Subpreschemes}{7}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Immersion Morphisms}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Products of Immersions}{7}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Inverse Images of a Subprescheme}{7}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Local Immersions and Local Isomorphisms}{7}{subsection.4.5}%
+\contentsline {section}{\numberline {5}Reduced Preschemes and the Separation Condition}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Reduced Preschemes}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Existence of a Subprescheme with a Given Underlying Space}{7}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Diagonal; Graph of a Morphism}{7}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Separated Morphisms and Separated Preschemes}{7}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Separation Criteria}{7}{subsection.5.5}%
+\contentsline {section}{\numberline {6}Finiteness Condtitions}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Noetherian and Locally Noetherian Preschemes}{7}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Artinian Properties}{7}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Morphisms of Finite Type}{7}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Algebraic Preschemes}{7}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.5}Local Determination of a Morphism}{7}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.6}Quasi-Compact Morphisms and Morphisms Locally of Finite Type}{7}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Rational Maps}{7}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Rational Maps and Rational Functions}{7}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Domain of Definition of a Rational Map}{7}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Sheaf of Rational Functions}{7}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Torsion Sheaves and Torsion-Free Sheaves}{7}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Chevalley Schemes}{7}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Allied Local Rings}{7}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Local Rings of an Integral Scheme}{7}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}Chevalley Schemes}{7}{subsection.8.3}%
+\contentsline {section}{\numberline {9}Supplement on Quasi-Coherent Sheaves}{7}{section.9}%
+\contentsline {section}{\numberline {10}Formal Schemes}{7}{section.10}%

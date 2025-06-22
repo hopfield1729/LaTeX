@@ -1,12 +1,47 @@
 \documentclass[11pt, a4paper]{article}
 \usepackage{amsfonts}
 \usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{mathtools}
+\usepackage{fontspec}
 \geometry{a4paper, total={170mm,257mm}, left=20mm, top=20mm,}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks,
+    citecolor=green,
+    filecolor=black,
+    linkcolor=red,
+    urlcolor=black
+}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\pgfplotsset{width=10cm,compat=1.9}
+\usepackage{tikz}
+\usepackage{tikz-cd}
+\usetikzlibrary{cd}
+\usepackage{pgfmath}
+\usepackage{amsmath}
 
 \newcommand{\Proj}{\mathbb{P}}
+\newcommand{\Aff}{\mathbb{A}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\V}{\mathbb{V}}
+\newcommand{\Lr}{\mathcal{O}}
+\newcommand{\m}{\mathfrak{m}}
+\newcommand{\ufd}{\textbf{UFD}}
+\newcommand{\ann}{\mathfrak{a}\mathfrak{n}\mathfrak{n}}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
 
 \title{Commutative Algebra for Algebraic Geometry}
-\author{B. Arm}
+\author{Bailey Arm}
 
 \begin{document}
 \maketitle
@@ -14,10 +49,16 @@
 
 \include{Hartshorne}
 \include{Eisenbud}
+\include{matsumura}
 \include{GortzWedhorn1}
 \include{GortzWedhorn2}
 \include{Bredon}
-\include{HeutsMoerdijk}
+\include{Milnor}
+\include{Kauffman}
+\include{mukai}
+\include{books/simplicial/simplicial_book}
 
+\bibliography{bib}
+\bibliographystyle{alpha}
 
 \end{document}

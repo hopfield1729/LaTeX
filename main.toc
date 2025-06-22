@@ -1,0 +1,312 @@
+\contentsline {part}{I\hspace {1em}Algebraic Geometry, Hartshorne}{9}{part.1}%
+\contentsline {section}{\numberline {1}Varieties}{9}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Affine Varieties}{11}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Projective Varieties}{11}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Morphisms}{11}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Rational Maps}{11}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Nonsingular Varieties}{11}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Nonsingular Curves}{11}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}Intersections in Projective Space}{11}{subsection.1.7}%
+\contentsline {section}{\numberline {2}Schemes}{11}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Sheaves}{11}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Schemes}{11}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}First Properties of Schemes}{11}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Separated and Proper Morphisms}{11}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Sheaves of Modules}{11}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Divisors}{11}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.7}Projective Morphisms}{11}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.8}Differentials}{11}{subsection.2.8}%
+\contentsline {subsection}{\numberline {2.9}Formal Schemes}{11}{subsection.2.9}%
+\contentsline {section}{\numberline {3}Cohomology}{11}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Derived Functors}{11}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Cohomology of Sheaves}{11}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}Cohomology of a Noetherian Affine Scheme}{11}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Cech Cohomology}{11}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}The Cohomology of Projective Space}{11}{subsection.3.5}%
+\contentsline {subsection}{\numberline {3.6}Ext Groups and Sheaves}{11}{subsection.3.6}%
+\contentsline {subsection}{\numberline {3.7}The Serre Duality Theorem}{11}{subsection.3.7}%
+\contentsline {subsection}{\numberline {3.8}Higher Direct Images of Sheaves}{11}{subsection.3.8}%
+\contentsline {subsection}{\numberline {3.9}Flat Morphisms}{11}{subsection.3.9}%
+\contentsline {subsection}{\numberline {3.10}Smooth Morphisms}{11}{subsection.3.10}%
+\contentsline {subsection}{\numberline {3.11}The Theorem on Formal Functions}{11}{subsection.3.11}%
+\contentsline {subsection}{\numberline {3.12}The Semicontinuity Theorem}{11}{subsection.3.12}%
+\contentsline {section}{\numberline {4}Curves}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Riemann-Roch Theorem}{11}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Hurwitz's Theorem}{11}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Embeddings in Projective Space}{11}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Elliptic Curves}{11}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}The Canonical Embedding}{11}{subsection.4.5}%
+\contentsline {subsection}{\numberline {4.6}Classification of Curves in $\mathbb {P}^3$}{11}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Surfaces}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Geometry on a Surface}{11}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Ruled Surfaces}{11}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Monoidal Transformations}{11}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}The Cubic Surface in $\mathbb {P}^n$}{11}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.5}Birational Transformations}{12}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.6}Classification of Surfaces}{12}{subsection.5.6}%
+\contentsline {part}{II\hspace {1em}Commutative Geometry with a View Toward Algebraic Geometry, Eisenbud}{13}{part.2}%
+\contentsline {section}{\numberline {6}Preliminaries}{13}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Rings and Ideals}{13}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Unique Factorisation}{14}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Modules}{14}{subsubsection.6.1.2}%
+\contentsline {section}{\numberline {7}Basic Constructions}{15}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Localisation}{15}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Fractions}{15}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Hom and Tensor}{18}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {7.1.3}The Construction of Primes}{18}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {7.1.4}Rings and Modules of Finite Length}{18}{subsubsection.7.1.4}%
+\contentsline {subsubsection}{\numberline {7.1.5}Products of Dom}{18}{subsubsection.7.1.5}%
+\contentsline {subsection}{\numberline {7.2}Associated Primes and Primary Decomposition}{18}{subsection.7.2}%
+\contentsline {subsubsection}{\numberline {7.2.1}Associated Primes}{18}{subsubsection.7.2.1}%
+\contentsline {subsubsection}{\numberline {7.2.2}Prime Avoidance}{18}{subsubsection.7.2.2}%
+\contentsline {subsubsection}{\numberline {7.2.3}Primary Decomposition}{18}{subsubsection.7.2.3}%
+\contentsline {subsubsection}{\numberline {7.2.4}Primary Decomposition and Factorality}{18}{subsubsection.7.2.4}%
+\contentsline {subsubsection}{\numberline {7.2.5}Primary Decomposition in the Graded Case}{18}{subsubsection.7.2.5}%
+\contentsline {subsubsection}{\numberline {7.2.6}Extracting Information form Primary Decomposition}{18}{subsubsection.7.2.6}%
+\contentsline {subsubsection}{\numberline {7.2.7}Why Primary Decomposition is not Unique}{18}{subsubsection.7.2.7}%
+\contentsline {subsubsection}{\numberline {7.2.8}Geometric Interpretation of Primary Decomposition}{18}{subsubsection.7.2.8}%
+\contentsline {subsubsection}{\numberline {7.2.9}Symbolic Powers and Functions Vanishing to High Order}{18}{subsubsection.7.2.9}%
+\contentsline {subsection}{\numberline {7.3}Integral Dependence and the Nullstellensatz}{18}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}The Cayley-Hamilton Theorem and Nakayama's Lemma}{18}{subsubsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.2}Normal Domains and the Normalisation Process}{18}{subsubsection.7.3.2}%
+\contentsline {subsubsection}{\numberline {7.3.3}Normalisation in the Analytic Case}{18}{subsubsection.7.3.3}%
+\contentsline {subsubsection}{\numberline {7.3.4}Primes in an Integral Extension}{18}{subsubsection.7.3.4}%
+\contentsline {subsubsection}{\numberline {7.3.5}The Nullstellensatz}{18}{subsubsection.7.3.5}%
+\contentsline {subsection}{\numberline {7.4}Filtrations and the Artin-Rees Lemma}{18}{subsection.7.4}%
+\contentsline {subsubsection}{\numberline {7.4.1}Associated Graded Rings and Modules}{18}{subsubsection.7.4.1}%
+\contentsline {subsubsection}{\numberline {7.4.2}The Blowup Algebra}{18}{subsubsection.7.4.2}%
+\contentsline {subsubsection}{\numberline {7.4.3}The Krull Intersection Theorem}{18}{subsubsection.7.4.3}%
+\contentsline {subsubsection}{\numberline {7.4.4}The Tangent Cone}{18}{subsubsection.7.4.4}%
+\contentsline {subsection}{\numberline {7.5}Flat Families}{18}{subsection.7.5}%
+\contentsline {subsubsection}{\numberline {7.5.1}Elementary Examples}{18}{subsubsection.7.5.1}%
+\contentsline {subsubsection}{\numberline {7.5.2}Introduction to Tor}{18}{subsubsection.7.5.2}%
+\contentsline {subsubsection}{\numberline {7.5.3}Criteria for Flatness}{18}{subsubsection.7.5.3}%
+\contentsline {subsubsection}{\numberline {7.5.4}The Local Criterion for Flatness}{18}{subsubsection.7.5.4}%
+\contentsline {subsubsection}{\numberline {7.5.5}The Rees Algebra}{18}{subsubsection.7.5.5}%
+\contentsline {subsection}{\numberline {7.6}Completions and Hensel's Lemma}{18}{subsection.7.6}%
+\contentsline {subsubsection}{\numberline {7.6.1}Examples and Definitions}{18}{subsubsection.7.6.1}%
+\contentsline {subsubsection}{\numberline {7.6.2}The Utility of Completions}{18}{subsubsection.7.6.2}%
+\contentsline {subsubsection}{\numberline {7.6.3}Lifting Idempotents}{18}{subsubsection.7.6.3}%
+\contentsline {subsubsection}{\numberline {7.6.4}Cohen Structure Theory and Coefficient Fields}{18}{subsubsection.7.6.4}%
+\contentsline {subsubsection}{\numberline {7.6.5}Basic Properties of Completion}{18}{subsubsection.7.6.5}%
+\contentsline {subsubsection}{\numberline {7.6.6}Maps from Power Series Rings}{18}{subsubsection.7.6.6}%
+\contentsline {section}{\numberline {8}Dimension Theory}{18}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Introduction to Dimension Theory}{18}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Fundamental Definitions of Dimension Theory}{18}{subsection.8.2}%
+\contentsline {subsection}{\numberline {8.3}The Principal Ideal Theorem and Systems of Parameters}{18}{subsection.8.3}%
+\contentsline {subsection}{\numberline {8.4}Dimension and Codimension One}{18}{subsection.8.4}%
+\contentsline {subsection}{\numberline {8.5}Dimension and Hilbert-Samuel Polynomials}{18}{subsection.8.5}%
+\contentsline {subsection}{\numberline {8.6}The Dimension of Affine Rings}{18}{subsection.8.6}%
+\contentsline {subsection}{\numberline {8.7}Elimination Theory, Generic Freeness and the Dimension of Fibres}{18}{subsection.8.7}%
+\contentsline {subsection}{\numberline {8.8}Gröbner Bases}{18}{subsection.8.8}%
+\contentsline {subsection}{\numberline {8.9}Modules of Differentials}{18}{subsection.8.9}%
+\contentsline {section}{\numberline {9}Homological Methods}{18}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Regular Sequences and the Koszul Complex}{18}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Depth, Codimension and Cohen-Macaulay Rings}{18}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Homological Theory of Regular Local Rings}{18}{subsection.9.3}%
+\contentsline {subsection}{\numberline {9.4}Free Resolutions and Fitting Invariants}{18}{subsection.9.4}%
+\contentsline {subsection}{\numberline {9.5}Duality, Canonical Modules and Gorenstein Rings}{18}{subsection.9.5}%
+\contentsline {part}{III\hspace {1em}Commutative Ring Theory, Matsumura}{19}{part.3}%
+\contentsline {section}{\numberline {10}Commutative Rings and Modules}{20}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Ideals}{20}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Modules}{20}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Chain Conditions}{20}{subsection.10.3}%
+\contentsline {section}{\numberline {11}Prime Ideals}{20}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Localisation and Spec of a Ring}{20}{subsection.11.1}%
+\contentsline {subsection}{\numberline {11.2}The Hilbert Nullstellensatz and First Steps in Dimension Theory}{20}{subsection.11.2}%
+\contentsline {subsection}{\numberline {11.3}Associated Primes and Primary Decomposition}{20}{subsection.11.3}%
+\contentsline {section}{\numberline {12}Properties of Extension Rings}{20}{section.12}%
+\contentsline {subsection}{\numberline {12.1}Flatness}{20}{subsection.12.1}%
+\contentsline {subsection}{\numberline {12.2}Completion and the Artin-Rees Lemma}{20}{subsection.12.2}%
+\contentsline {subsection}{\numberline {12.3}Integral Extensions}{20}{subsection.12.3}%
+\contentsline {section}{\numberline {13}Valuation Rings}{20}{section.13}%
+\contentsline {subsection}{\numberline {13.1}General Valuations}{20}{subsection.13.1}%
+\contentsline {subsection}{\numberline {13.2}DVRs amd Dedekind Rings}{20}{subsection.13.2}%
+\contentsline {subsection}{\numberline {13.3}Krull Rings}{20}{subsection.13.3}%
+\contentsline {section}{\numberline {14}Dimension Theory}{20}{section.14}%
+\contentsline {subsection}{\numberline {14.1}Graded Rings, the Hilbert Function and the Samuel Function}{20}{subsection.14.1}%
+\contentsline {subsection}{\numberline {14.2}Systems of Parameters and Multiplicity}{20}{subsection.14.2}%
+\contentsline {subsection}{\numberline {14.3}The Dimension of Extension Rings}{20}{subsection.14.3}%
+\contentsline {section}{\numberline {15}Regular Sequences}{20}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Regular Sequences and the Koszul Complex}{20}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Cohen-Macualay Rings}{20}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Gorenstein Rings}{20}{subsection.15.3}%
+\contentsline {section}{\numberline {16}Regular Rings}{20}{section.16}%
+\contentsline {subsection}{\numberline {16.1}Regular Rings}{20}{subsection.16.1}%
+\contentsline {subsection}{\numberline {16.2}UFDs}{20}{subsection.16.2}%
+\contentsline {subsection}{\numberline {16.3}Complete Intersection Rings}{20}{subsection.16.3}%
+\contentsline {section}{\numberline {17}Flatness Revisited}{20}{section.17}%
+\contentsline {subsection}{\numberline {17.1}The Local Flatness Criterion}{20}{subsection.17.1}%
+\contentsline {subsection}{\numberline {17.2}Flatness and Fibres}{20}{subsection.17.2}%
+\contentsline {subsection}{\numberline {17.3}Generic Freeness and Open Loci Results}{20}{subsection.17.3}%
+\contentsline {section}{\numberline {18}Derivations}{20}{section.18}%
+\contentsline {subsection}{\numberline {18.1}Derivations and Differentials}{20}{subsection.18.1}%
+\contentsline {subsection}{\numberline {18.2}Separability}{20}{subsection.18.2}%
+\contentsline {subsection}{\numberline {18.3}Higher Derivations}{20}{subsection.18.3}%
+\contentsline {section}{\numberline {19}$I$-Smoothness}{20}{section.19}%
+\contentsline {subsection}{\numberline {19.1}$I$-Smoothness}{20}{subsection.19.1}%
+\contentsline {subsection}{\numberline {19.2}The Structure Theorems for Complete Local Rings}{20}{subsection.19.2}%
+\contentsline {subsection}{\numberline {19.3}Connections with Derivations}{20}{subsection.19.3}%
+\contentsline {section}{\numberline {20}Applications of Complete Local Rings}{20}{section.20}%
+\contentsline {subsection}{\numberline {20.1}Chains of Prime Ideals}{20}{subsection.20.1}%
+\contentsline {subsection}{\numberline {20.2}The Formal Fibre}{20}{subsection.20.2}%
+\contentsline {subsection}{\numberline {20.3}Other Applications}{20}{subsection.20.3}%
+\contentsline {part}{IV\hspace {1em}Algebraic Geometry I: Schemes, Gortz-Wedhorn}{21}{part.4}%
+\contentsline {part}{V\hspace {1em}Algebraic Geometry II: Cohomology of Schemes, Gortz-Wedhorn}{22}{part.5}%
+\contentsline {part}{VI\hspace {1em}Sheaf Theory, Bredon}{23}{part.6}%
+\contentsline {section}{\numberline {21}Sheaves and Presheaves}{24}{section.21}%
+\contentsline {subsection}{\numberline {21.1}Definitions}{24}{subsection.21.1}%
+\contentsline {subsection}{\numberline {21.2}Homomorphisms, Subsheaves and Quotient Sheaves}{24}{subsection.21.2}%
+\contentsline {subsection}{\numberline {21.3}Direct and Inverse Images}{24}{subsection.21.3}%
+\contentsline {subsection}{\numberline {21.4}Cohomomorphisms}{24}{subsection.21.4}%
+\contentsline {subsection}{\numberline {21.5}Algebraic Constructions}{24}{subsection.21.5}%
+\contentsline {subsection}{\numberline {21.6}Supports}{24}{subsection.21.6}%
+\contentsline {subsection}{\numberline {21.7}Classical Cohomology Theories}{24}{subsection.21.7}%
+\contentsline {section}{\numberline {22}Sheaf Cohmology}{24}{section.22}%
+\contentsline {subsection}{\numberline {22.1}Differential Sheaves and Resolutions}{24}{subsection.22.1}%
+\contentsline {subsection}{\numberline {22.2}The Canonical Resolution and Sheaf Cohomology}{24}{subsection.22.2}%
+\contentsline {subsection}{\numberline {22.3}Injective Sheaves}{24}{subsection.22.3}%
+\contentsline {subsection}{\numberline {22.4}Acyclic Sheaves}{24}{subsection.22.4}%
+\contentsline {subsection}{\numberline {22.5}Flabby Sheaves}{24}{subsection.22.5}%
+\contentsline {subsection}{\numberline {22.6}Connected Sequences of Functors}{24}{subsection.22.6}%
+\contentsline {subsection}{\numberline {22.7}Axioms for Cohmomology and the Cup Product}{24}{subsection.22.7}%
+\contentsline {subsection}{\numberline {22.8}Maps of Spaces}{24}{subsection.22.8}%
+\contentsline {subsection}{\numberline {22.9}$\Phi $-Soft and $\Phi $-Fine Sheaves}{24}{subsection.22.9}%
+\contentsline {subsection}{\numberline {22.10}Subspaces}{24}{subsection.22.10}%
+\contentsline {subsection}{\numberline {22.11}The Vietoris Maping Theorem and Homotopy Invariance}{24}{subsection.22.11}%
+\contentsline {subsection}{\numberline {22.12}Relative Cohomology}{24}{subsection.22.12}%
+\contentsline {subsection}{\numberline {22.13}Mayer-Vietoris Theorems}{24}{subsection.22.13}%
+\contentsline {subsection}{\numberline {22.14}Continuity}{24}{subsection.22.14}%
+\contentsline {subsection}{\numberline {22.15}The Künneth and Universal Coefficient Theorems}{24}{subsection.22.15}%
+\contentsline {subsection}{\numberline {22.16}Dimension}{24}{subsection.22.16}%
+\contentsline {subsection}{\numberline {22.17}Local Connectivity}{24}{subsection.22.17}%
+\contentsline {subsection}{\numberline {22.18}Change pf Supports and Local Cohomology Groups}{24}{subsection.22.18}%
+\contentsline {subsection}{\numberline {22.19}The Transfer Homomorphism and the Smith Sequences}{24}{subsection.22.19}%
+\contentsline {subsection}{\numberline {22.20}Steenrod's Cyclic Reduced Powers}{24}{subsection.22.20}%
+\contentsline {subsection}{\numberline {22.21}The Steenrod Operations}{24}{subsection.22.21}%
+\contentsline {section}{\numberline {23}Comparison with Other Cohomology Theories}{24}{section.23}%
+\contentsline {subsection}{\numberline {23.1}Singular Cohomology}{24}{subsection.23.1}%
+\contentsline {subsection}{\numberline {23.2}Alexander-Spanier Cohomology}{24}{subsection.23.2}%
+\contentsline {subsection}{\numberline {23.3}de Rham Cohmomology}{24}{subsection.23.3}%
+\contentsline {subsection}{\numberline {23.4}Cech Cohomology}{24}{subsection.23.4}%
+\contentsline {section}{\numberline {24}Applications of Spectral Sequences}{24}{section.24}%
+\contentsline {subsection}{\numberline {24.1}The Spectral Sequence of a Differential Sheaf}{24}{subsection.24.1}%
+\contentsline {subsection}{\numberline {24.2}The Fundamental Theorems of Sheaves}{24}{subsection.24.2}%
+\contentsline {subsection}{\numberline {24.3}Direct Image Relative to a Support Family}{24}{subsection.24.3}%
+\contentsline {subsection}{\numberline {24.4}The Leray Sheaf}{24}{subsection.24.4}%
+\contentsline {subsection}{\numberline {24.5}Extension of a Support Family by a Family on the Base Space}{24}{subsection.24.5}%
+\contentsline {subsection}{\numberline {24.6}The Leray Spectral Sequence of a Map}{24}{subsection.24.6}%
+\contentsline {subsection}{\numberline {24.7}Fiber Bundles}{24}{subsection.24.7}%
+\contentsline {subsection}{\numberline {24.8}Dimension}{24}{subsection.24.8}%
+\contentsline {subsection}{\numberline {24.9}The Spectral Sequences of Borel and Cartan}{24}{subsection.24.9}%
+\contentsline {subsection}{\numberline {24.10}Characteristic Classes}{24}{subsection.24.10}%
+\contentsline {subsection}{\numberline {24.11}The Spectral Sequence of a Filtered Differential Sheaf}{24}{subsection.24.11}%
+\contentsline {subsection}{\numberline {24.12}The Fary Spectral Sequence}{24}{subsection.24.12}%
+\contentsline {subsection}{\numberline {24.13}Sphere Bundles with Singularities}{24}{subsection.24.13}%
+\contentsline {subsection}{\numberline {24.14}The Oliver Transfer and the Conner Conjecture}{24}{subsection.24.14}%
+\contentsline {section}{\numberline {25}Borel-Moore Homology}{24}{section.25}%
+\contentsline {subsection}{\numberline {25.1}Cosheaves}{24}{subsection.25.1}%
+\contentsline {subsection}{\numberline {25.2}The Dual of a Differential Cosheaf}{24}{subsection.25.2}%
+\contentsline {subsection}{\numberline {25.3}Homology Theory}{24}{subsection.25.3}%
+\contentsline {subsection}{\numberline {25.4}Maps of Spaces}{24}{subsection.25.4}%
+\contentsline {subsection}{\numberline {25.5}Subspaces and Relative Homology}{24}{subsection.25.5}%
+\contentsline {subsection}{\numberline {25.6}The Viertoris Theorem, Homotopy and Covering Spaces}{24}{subsection.25.6}%
+\contentsline {subsection}{\numberline {25.7}The Homology Sheaf of a Map}{24}{subsection.25.7}%
+\contentsline {subsection}{\numberline {25.8}The Basic Spectral Sequence}{24}{subsection.25.8}%
+\contentsline {subsection}{\numberline {25.9}Poincaré Duality}{24}{subsection.25.9}%
+\contentsline {subsection}{\numberline {25.10}The Cap Product}{24}{subsection.25.10}%
+\contentsline {subsection}{\numberline {25.11}Intersection Theory}{24}{subsection.25.11}%
+\contentsline {subsection}{\numberline {25.12}Uniqueness Theorems}{24}{subsection.25.12}%
+\contentsline {subsection}{\numberline {25.13}Uniqueness Theorems for Maps and Relative Homology}{24}{subsection.25.13}%
+\contentsline {subsection}{\numberline {25.14}The Künneth Formula}{24}{subsection.25.14}%
+\contentsline {subsection}{\numberline {25.15}Change of Rings}{24}{subsection.25.15}%
+\contentsline {subsection}{\numberline {25.16}Generalised Manifolds}{24}{subsection.25.16}%
+\contentsline {subsection}{\numberline {25.17}Locally Homogenous Spaces}{24}{subsection.25.17}%
+\contentsline {subsection}{\numberline {25.18}Homological Fibrations and $p$-adic Transformation Groups}{24}{subsection.25.18}%
+\contentsline {subsection}{\numberline {25.19}The Transfer Homomorphism on Homology}{24}{subsection.25.19}%
+\contentsline {subsection}{\numberline {25.20}Smith Theory in Homology}{24}{subsection.25.20}%
+\contentsline {section}{\numberline {26}Cosheaves and Cech Homology}{24}{section.26}%
+\contentsline {subsection}{\numberline {26.1}Theory of Cosheaves}{24}{subsection.26.1}%
+\contentsline {subsection}{\numberline {26.2}Local Triviality}{24}{subsection.26.2}%
+\contentsline {subsection}{\numberline {26.3}Local Isomorphisms}{24}{subsection.26.3}%
+\contentsline {subsection}{\numberline {26.4}Chech Homology}{24}{subsection.26.4}%
+\contentsline {subsection}{\numberline {26.5}The Reflector}{24}{subsection.26.5}%
+\contentsline {subsection}{\numberline {26.6}Spectral Sequences}{24}{subsection.26.6}%
+\contentsline {subsection}{\numberline {26.7}Coresolutions}{24}{subsection.26.7}%
+\contentsline {subsection}{\numberline {26.8}Relative Cech Homology}{24}{subsection.26.8}%
+\contentsline {subsection}{\numberline {26.9}Locally Paracompact Spaces}{24}{subsection.26.9}%
+\contentsline {subsection}{\numberline {26.10}Borel-Moore Homology}{24}{subsection.26.10}%
+\contentsline {subsection}{\numberline {26.11}Modified Barel-Moore Homology}{24}{subsection.26.11}%
+\contentsline {subsection}{\numberline {26.12}Singular Homology}{24}{subsection.26.12}%
+\contentsline {subsection}{\numberline {26.13}Acyclic Coverings}{24}{subsection.26.13}%
+\contentsline {subsection}{\numberline {26.14}Applications to Maps}{24}{subsection.26.14}%
+\contentsline {part}{VII\hspace {1em}Introduction to Algebraic K-Theory}{25}{part.7}%
+\contentsline {section}{\numberline {27}Projective Modules and $K_0\Lambda $}{25}{section.27}%
+\contentsline {section}{\numberline {28}Constructing Projective Modules}{25}{section.28}%
+\contentsline {section}{\numberline {29}The Whitehead Group $K_1\Lambda $}{25}{section.29}%
+\contentsline {section}{\numberline {30}The Exact Sequence Associated with an Ideal}{25}{section.30}%
+\contentsline {section}{\numberline {31}Steinberg Groups and the Functor $K_2$}{25}{section.31}%
+\contentsline {section}{\numberline {32}Extending the Extact Sequences}{25}{section.32}%
+\contentsline {section}{\numberline {33}The Case of a Commutative Banch Algebra}{25}{section.33}%
+\contentsline {section}{\numberline {34}The Product $K_1 \Lambda \otimes K_1\Lambda \to K_2\Lambda $}{25}{section.34}%
+\contentsline {section}{\numberline {35}Computations in the Steinberg Group}{25}{section.35}%
+\contentsline {section}{\numberline {36}Computation of $K_2Z$}{25}{section.36}%
+\contentsline {section}{\numberline {37}Matsumoto's Computation of $K_2$ of a Field}{25}{section.37}%
+\contentsline {section}{\numberline {38}Proof of Matsumoto's Theorem}{25}{section.38}%
+\contentsline {section}{\numberline {39}More about Dedekind Domains}{25}{section.39}%
+\contentsline {section}{\numberline {40}The Transfer Homomorphism}{25}{section.40}%
+\contentsline {section}{\numberline {41}Power Norm Residue Theorems}{25}{section.41}%
+\contentsline {section}{\numberline {42}Number Fields}{25}{section.42}%
+\contentsline {part}{VIII\hspace {1em}Formal Knot Theory, Kauffman}{26}{part.8}%
+\contentsline {section}{\numberline {43}Introduction}{26}{section.43}%
+\contentsline {section}{\numberline {44}States, Trails and the Clock Theorem}{26}{section.44}%
+\contentsline {section}{\numberline {45}State Polynomials and the Duality Conjecture}{26}{section.45}%
+\contentsline {section}{\numberline {46}Knots and Links}{26}{section.46}%
+\contentsline {section}{\numberline {47}Axiomatic Link Calculations}{26}{section.47}%
+\contentsline {section}{\numberline {48}Curliness and the Alexander Polynomial}{26}{section.48}%
+\contentsline {section}{\numberline {49}The Coat of Many Colours}{26}{section.49}%
+\contentsline {section}{\numberline {50}Spanning Surfaces}{26}{section.50}%
+\contentsline {section}{\numberline {51}The Genus of Alternative Links}{26}{section.51}%
+\contentsline {section}{\numberline {52}Ribbon Knot and the Arf Invariant}{26}{section.52}%
+\contentsline {part}{IX\hspace {1em}An Introduction to Invariants and Moduli, Mukai}{27}{part.9}%
+\contentsline {section}{\numberline {53}Invariants and Moduli}{27}{section.53}%
+\contentsline {section}{\numberline {54}Rings and Polynomials}{27}{section.54}%
+\contentsline {section}{\numberline {55}Algebraic Varieties}{27}{section.55}%
+\contentsline {section}{\numberline {56}Algebraic Groups and Rings of Invariants}{27}{section.56}%
+\contentsline {section}{\numberline {57}The Construction of Quotient Varieties}{27}{section.57}%
+\contentsline {section}{\numberline {58}The Projective Quotients}{27}{section.58}%
+\contentsline {section}{\numberline {59}The Numerical Criterion and Some Applications}{27}{section.59}%
+\contentsline {section}{\numberline {60}Grassmannians and Vector Bundles}{27}{section.60}%
+\contentsline {section}{\numberline {61}Curves and their Jacobians}{27}{section.61}%
+\contentsline {section}{\numberline {62}Stable Vector Bundles on Curves}{27}{section.62}%
+\contentsline {section}{\numberline {63}Moduli Functors}{27}{section.63}%
+\contentsline {section}{\numberline {64}Intersection Numbers and the Verlinde Formula}{27}{section.64}%
+\contentsline {part}{X\hspace {1em}Simplicial and Dendroidal Homotopy Theory}{28}{part.10}%
+\contentsline {section}{\numberline {65}Operads}{28}{section.65}%
+\contentsline {subsection}{\numberline {65.1}Operads}{28}{subsection.65.1}%
+\contentsline {subsection}{\numberline {65.2}Algebras for Operads}{29}{subsection.65.2}%
+\contentsline {subsection}{\numberline {65.3}Trees}{30}{subsection.65.3}%
+\contentsline {subsection}{\numberline {65.4}Alternative Definitions for Operads}{30}{subsection.65.4}%
+\contentsline {subsection}{\numberline {65.5}Free Operads}{30}{subsection.65.5}%
+\contentsline {subsection}{\numberline {65.6}The Tensor Product of Operads}{30}{subsection.65.6}%
+\contentsline {subsection}{\numberline {65.7}The Boardman-Vogt Resolution of an Operad}{30}{subsection.65.7}%
+\contentsline {subsection}{\numberline {65.8}Configuration Spaces and the Fulton-MacPherson Operad}{30}{subsection.65.8}%
+\contentsline {subsection}{\numberline {65.9}Configuration Spaces and the Operad of Little Cubes}{30}{subsection.65.9}%
+\contentsline {section}{\numberline {66}Simplicial Sets}{30}{section.66}%
+\contentsline {subsection}{\numberline {66.1}The Simplex Category $\Delta $}{30}{subsection.66.1}%
+\contentsline {subsubsection}{\numberline {66.1.1}Limits and Colimits of The Simplicial Category}{31}{subsubsection.66.1.1}%
+\contentsline {subsection}{\numberline {66.2}Simplicial Sets and the Geometric Realisation}{31}{subsection.66.2}%
+\contentsline {section}{\numberline {67}Dendroidal Sets}{32}{section.67}%
+\contentsline {section}{\numberline {68}Tensor Products of Dendroidal Sets}{32}{section.68}%
+\contentsline {section}{\numberline {69}Kan Conditions for Simplicial Sets}{32}{section.69}%
+\contentsline {section}{\numberline {70}Kan Conditions for Dendroidal Sets}{32}{section.70}%
+\contentsline {section}{\numberline {71}Model Categories}{32}{section.71}%
+\contentsline {section}{\numberline {72}Model Structures on the Category of Simplicial Sets}{32}{section.72}%
+\contentsline {section}{\numberline {73}Three Model Structures on the Category of Dendroidal Sets}{32}{section.73}%
+\contentsline {section}{\numberline {74}Reedy Categories and Diagrams of Spaces}{32}{section.74}%
+\contentsline {section}{\numberline {75}Mapping Spaces and Bousfield Localisations}{32}{section.75}%
+\contentsline {section}{\numberline {76}Dendroidal Spaces and $\infty $-Operads}{32}{section.76}%
+\contentsline {section}{\numberline {77}Left Fibrations and the Covariant Model Structure}{32}{section.77}%
+\contentsline {section}{\numberline {78}Simplical Operads and $\infty $-Operads}{32}{section.78}%
+\contentsline {section}{\numberline {79}Some Research}{32}{section.79}%
+\contentsline {subsection}{\numberline {79.1}Yubiwal Sets \text {指輪}}{32}{subsection.79.1}%

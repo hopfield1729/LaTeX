@@ -1,0 +1,35 @@
+\contentsline {part}{I\hspace {1em}Simplicial and Dendroidal Homotopy Theory}{3}{part.1}%
+\contentsline {section}{\numberline {1}Operads}{3}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Operads}{3}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Algebras for Operads}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Trees}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Alternative Definitions for Operads}{5}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Free Operads}{5}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}The Tensor Product of Operads}{5}{subsection.1.6}%
+\contentsline {subsection}{\numberline {1.7}The Boardman-Vogt Resolution of an Operad}{5}{subsection.1.7}%
+\contentsline {subsection}{\numberline {1.8}Configuration Spaces and the Fulton-MacPherson Operad}{5}{subsection.1.8}%
+\contentsline {subsection}{\numberline {1.9}Configuration Spaces and the Operad of Little Cubes}{5}{subsection.1.9}%
+\contentsline {section}{\numberline {2}Simplicial Sets}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}The Simplex Category $\Delta $}{5}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Limits and Colimits of The Simplicial Category}{6}{subsubsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.2}Simplicial Sets and the Geometric Realisation}{6}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}The Geometric Realisation as a Cell Complex}{8}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Simplicial Sets as a Category of Presheaves}{8}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Dendroidal Sets}{8}{section.3}%
+\contentsline {section}{\numberline {4}Tensor Products of Dendroidal Sets}{8}{section.4}%
+\contentsline {section}{\numberline {5}Kan Conditions for Simplicial Sets}{8}{section.5}%
+\contentsline {section}{\numberline {6}Kan Conditions for Dendroidal Sets}{8}{section.6}%
+\contentsline {section}{\numberline {7}Model Categories}{8}{section.7}%
+\contentsline {section}{\numberline {8}Model Structures on the Category of Simplicial Sets}{8}{section.8}%
+\contentsline {section}{\numberline {9}Three Model Structures on the Category of Dendroidal Sets}{8}{section.9}%
+\contentsline {section}{\numberline {10}Reedy Categories and Diagrams of Spaces}{8}{section.10}%
+\contentsline {section}{\numberline {11}Mapping Spaces and Bousfield Localisations}{8}{section.11}%
+\contentsline {section}{\numberline {12}Dendroidal Spaces and $\infty $-Operads}{8}{section.12}%
+\contentsline {section}{\numberline {13}Left Fibrations and the Covariant Model Structure}{8}{section.13}%
+\contentsline {section}{\numberline {14}Simplical Operads and $\infty $-Operads}{8}{section.14}%
+\contentsline {section}{\numberline {15}Some Research}{8}{section.15}%
+\contentsline {subsection}{\numberline {15.1}Danoidal Sets}{8}{subsection.15.1}%
+\contentsline {subsection}{\numberline {15.2}Kanoidal Sets}{8}{subsection.15.2}%
+\contentsline {subsection}{\numberline {15.3}Hokoidal Sets}{8}{subsection.15.3}%
+\contentsline {subsection}{\numberline {15.4}Kukanal Set}{8}{subsection.15.4}%
+\contentsline {subsection}{\numberline {15.5}General Sentoidal Sets}{8}{subsection.15.5}%

@@ -1,0 +1,152 @@
+\part{Algebraic Geometry I: Schemes, Gortz-Wedhorn} 
+
+\section{Prevarieties}
+
+\subsection{Affine Algebraic Sets}
+
+\subsubsection{The Zariski Topology on $\Aff_k^n$}
+
+\begin{definition}
+    Let $M\subseteq k[T_1,...,T_n] =: k[\underbar{T}]$. The set of common zeros of the polynomials in $M$ is defined as
+    \[\V(M) := \{p\in k^n : f(p) = 0 \quad \forall f \in M\}\]
+\end{definition}
+
+\begin{proposition}
+    The sets $\V(\mathfrak{a})$ where $\mathfrak{a}$ is an ideal in $k[\underbar{T}]$ form a topoology on $\Aff^n_k$ called the Zariksi topology.
+\end{proposition}
+
+This is a very elementary problem in algebraic geometry . 
+
+\subsubsection{Affine Algebraic Sets}
+
+\begin{definition}
+    The closed subspaces of $\Aff^n_k$ are called affine algebraic sets. 
+\end{definition}
+
+\subsubsection{Hilbert's Nullstellensatz}
+
+\begin{theorem}
+    \textbf{Hilbert's Nullstellensatz: }Let $K$ be  field and $A$ a finitely generated $K$-algebra. Then $A$ is Jacobson, that is for every prime ideal $\p\subset A$ we have 
+    \[\p = \bigcap_{\m \supseteq \p, \m \text{ maximal}} \m\] 
+\end{theorem}
+
+\begin{theorem}
+    \textbf{Noether's Normalisation Theorem: }Let $K$ be a field and $A\neq 0$ a finitely generated $K$-algebra. Then there exists $n \in \N$ abd $t_1,...,t_n$ such that the $K$-algebra homomorphism $K[T_1,...,T_n] \to A$, $T_i \to t_i$ is injective and finite
+\end{theorem}
+
+\begin{lemma}
+    Let $A,B$ be integral domains and $A\to B$ an injective integral ring homomorphism. Then $A$ is a field iff $B$ is a field
+\end{lemma}
+
+\textit{Proof. }Let $A$ be a field and $b \in B$ non-zero. Then $A[b]$ is an $A$-vector space of finite dimension. As $B$ is an integral domain, the multiplication by $b$, $A[b] \to A[b]$ is injective. As this map is $A$-linear it is bijective and hence $b$ is a unit. We can extend this type of argument to every $a\neq 0 \in A$ and prove that $a$ must be a unit. 
+
+We can further investigate the impact of the Nullstellensatz on algebraically closed fields. Let $K = k$ be an algebraically closed field. Then the Nullstellensatz implies the following:
+\begin{itemize}
+    \item Let $A$ be a finitely generated $k$-algebra and $\m \subset A$ a maximal ideal. Then $A/\m = k$
+    \item $\m \subset k[T_1,...,T_n]$ maximal implies existence of a point $(x_1,...,x_n)$ in $A$ such that $\m = (T_1 - x_1,...,T_n - x_n)$
+\end{itemize}
+These points have nice geometric interpretations. When $A$ is the set of polynomials $A = k[x_1,...,x_n]$ and $\m$ is a maximal ideal, the coordinate ring of $X = \V(\m)$ is isomorphic to the underlying field. The second point is also nice and tells us that all maximal ideals in $k[x_1,...,x_n]$ correspond to points in $\Aff_k^n$. This is interesting, maximal ideals are large but correspond to very small/finite varities. 
+
+\subsubsection{The Radical-Affine Correspondence}
+
+There is a bijective correspondence between radical ideals and affine varities:
+
+\[\{\p \subset A:\quad \rad(\p) = \p\} \leftrightarrow \{X \subset \Aff^n_k: \quad X = \V(f_1,...,f_n)\}\]
+\[\p \to \V(\p)\]
+\[\mathbb{I}(X) \leftarrow X\]
+
+\subsection{Affine Algebraic Sets as Spaces with Functions}
+
+\subsection{Prevarieties}
+
+\subsection{Projective Varieties}
+
+\subsection{Exercises}
+
+\section{Spectrum of a Ring}
+
+\section{Schemes}
+
+\section{Fibre Products}
+
+\section{Schemes over Fields}
+
+\section{Local Porpoerties of Schemes}
+
+\section{Quasi-Coherent Modules}
+
+\subsection{Excursion into $\Lr_X$-Modules}
+\subsection{Quasi-Coherent Modules on a Scheme}
+\subsection{Properties of Quasi-Coherent Modules}
+\subsection{Exercises}
+
+\section{Representable Functors}
+
+\subsection{Representable Functors}
+\subsection{The Grassmannian}
+\subsection{Brauer-Severi Schemes}
+\subsection{Exercises}
+
+\section{Separated Morphisms}
+
+\subsection{Diagonal of Scheme Morphism s and Separated Morphisms}
+\subsection{Rational Maps and Function Fields}
+\subsection{Exercises}
+
+\section{Finiteness Conditions}
+
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{Exercises}
+
+\section{Vector Bundles}
+
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{Exercises}
+
+\section{Affine and Proper Morphisms}
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{Exercises}
+
+\section{Projective Morphisms}
+
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{Exercises}
+
+\section{Flat Morphisms and Dimension}
+
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{Exercises}
+
+\section{One-Dimensional Schemes}
+
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{}
+\subsection{Exercises}
+
+\section{Examples}
+
+\subsection{Determinal Varieties}
+\subsection{Cubic Surfaces and  Hilbert Modular Surface}
+\subsection{Cyclic Quotient Singularities}
+\subsection{Abelian Varieties}
+\subsection{Exercises}
